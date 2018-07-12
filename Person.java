@@ -33,6 +33,11 @@ public class Person
     public int getPhoneNumber() {
         return phoneNumber;
     }
+    public void changeNameOfPerson(String firstName, String lastName)
+    {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
     public String getAllInfo()
     {
         return "First name: " + getFirstName() + "\nLast name: " + getLastName() + "\nAge: " + getAge() + "\nAdress: " + getAdress() +
